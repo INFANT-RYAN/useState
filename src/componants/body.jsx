@@ -20,10 +20,10 @@ export default function Body() {
       <div className="flex justify-center"  >
         <p className=" text-9xl font-bold">{Num}</p>
       </div>
-      <div className="flex flex-col justify-center gap-4 md:flex-row md:justify-center ">
-        <button onClick={increment} className="bg-black text-white hover:bg-white hover:text-black border-2 border-black rounded-md   h-8 w-16 ">++</button>
-        <button onClick={decrement} className="bg-black text-white hover:bg-white hover:text-black border-2 border-black rounded-md   h-8 w-16 ">--</button>
-        <button onClick={reset} className="bg-black text-white hover:bg-white hover:text-black border-2 border-black rounded-md   h-8 w-16 ">Reset</button>
+      <div className="flex flex-col  justify-center gap-4 md:flex-row md:justify-center  p-8  ">
+        <button onClick={increment} className="bg-black w-full text-white hover:bg-white hover:text-black border-2 border-black rounded-md   h-8  ">++</button>
+        <button onClick={decrement} className="bg-black text-white hover:bg-white hover:text-black border-2 border-black rounded-md   h-8 w-full ">--</button>
+        <button onClick={reset} className="bg-black text-white hover:bg-white hover:text-black border-2 border-black rounded-md   h-8 w-full ">Reset</button>
       </div>
     </div>
   );
