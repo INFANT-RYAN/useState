@@ -16,7 +16,7 @@ export default function Body() {
     }
 
   return (
-    <div className="flex flex-col justify-center md:my-40 gap-y-10">
+    <div className="flex flex-col justify-center md:my-40 gap-y-10 mx-auto container my-auto">
       <div className="flex justify-center"  >
         <p className=" text-9xl font-bold">{Num}</p>
       </div>
